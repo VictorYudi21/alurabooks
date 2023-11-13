@@ -1,5 +1,6 @@
 @import url(styles/hearder.css);
 @import url(styles/banner.css);
+@import url(styles/carrosel.css);
 
 :root {
     --cor-de-fundo: #ebecee;
@@ -7,6 +8,7 @@
     --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --branco: #ffff;
+    --azul : #002f52;
 }
 
 body {
