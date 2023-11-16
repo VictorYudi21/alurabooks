@@ -15,6 +15,7 @@
 }
 .topicos__item {
     margin: 2em 0.5em;
+    list-style-type: none;
 }
 .topicos__link {
     color: var(--branco);
@@ -23,4 +24,12 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+@media screen and (min-width: 1024px) {
+    .topicos__titulos {
+        font-size: 24px;
+    }
+    .topicos__link {
+        font-size: 24px;
+    }
 }
